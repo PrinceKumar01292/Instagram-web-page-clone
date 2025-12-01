@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import ChatPage from './components/ChatPage'
 import EditProfile from './components/EditProfile'
 import Home from './components/Home'
 import Login from './components/Login'
@@ -13,6 +12,7 @@ import { setSocket } from './redux/socketSlice'
 import { setOnlineUsers } from './redux/chatSlice'
 import { setLikeNotification } from './redux/rtnSlice'
 import ProtectedRoutes from './components/ProtectedRoutes'
+import ChatPage from './components/chatPage'
 
 
 const browserRouter = createBrowserRouter([
